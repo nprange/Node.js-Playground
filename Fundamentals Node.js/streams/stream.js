@@ -27,7 +27,6 @@ class InverseNumberStream extends Transform {
 }
 
 class MultiplyByTenStream extends Writable {
-  // Chunk is the piece that was read of the read stream.
   _write(chunk, encoding, callback) {
     console.log(Number(chunk.toString()) * 10);
     callback();
