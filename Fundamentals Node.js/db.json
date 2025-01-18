@@ -1,9 +1,1 @@
-{
-  "users": [
-    {
-      "id": "c4550a6d-3976-4264-b8c9-6ace1f094def",
-      "name": "Nicolas Prange",
-      "email": "nicolas_prange@icloud.com"
-    }
-  ]
-}
+{"users":[{"id":"ffb2c569-eb75-49ec-bd70-da4b6262fb02","name":"Nicolas Prange","email":"nicolas_prange@icloud.com"}]}
