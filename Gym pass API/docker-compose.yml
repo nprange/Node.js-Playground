@@ -1,0 +1,9 @@
+services:
+  solid-api-gympass:
+    image: bitnami/postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRESQL_USERNAME=local_user
+      - POSTGRESQL_PASSWORD=local_password
+      - POSTGRESQL_DATABASE=local_db
