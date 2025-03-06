@@ -1,0 +1,20 @@
+{
+	"name": "express-rest-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch src/server.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "4.21.2"
+	},
+	"devDependencies": {
+		"tsx": "4.19.3",
+		"@biomejs/biome": "1.9.4",
+		"@types/express": "5.0.0"
+	}
+}
